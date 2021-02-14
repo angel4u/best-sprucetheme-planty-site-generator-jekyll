@@ -1,11 +1,11 @@
-title: Planty
+title: Manepalo
 baseurl: /
 permalink: /:title/
 snipcart_api_key: ""
 footer_text: Copyright 2021 Planty Inc. All rights reserved.
 logo_light: null
 logo_dark: https://img10.360buyimg.com/imgzone/jfs/t1/110741/40/14370/228994/5f02a081Ee25396b1/97e44fdd9de2c13c.jpg
-favicon: images/favicon.png
+favicon: ""
 hamburger_background_image: /images/leaf-light-grey.svg
 bg_image_primary: https://cdn.dribbble.com/users/118534/screenshots/5529130/3.jpg
 bg_image_secondary: /images/leaf-light-grey.svg
