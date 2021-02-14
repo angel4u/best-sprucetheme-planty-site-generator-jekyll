@@ -1,13 +1,13 @@
 title: Planty
 baseurl: /
-permalink: '/:title/'
-snipcart_api_key: ''
+permalink: /:title/
+snipcart_api_key: ""
 footer_text: Copyright 2021 Planty Inc. All rights reserved.
-logo_light: images/logo-white.svg
-logo_dark: images/logo.svg
+logo_light: null
+logo_dark: https://img10.360buyimg.com/imgzone/jfs/t1/110741/40/14370/228994/5f02a081Ee25396b1/97e44fdd9de2c13c.jpg
 favicon: images/favicon.png
 hamburger_background_image: /images/leaf-light-grey.svg
-bg_image_primary: /images/header.jpg
+bg_image_primary: https://cdn.dribbble.com/users/118534/screenshots/5529130/3.jpg
 bg_image_secondary: /images/leaf-light-grey.svg
 bg_image_product: /images/leaf.svg
 palette: green
@@ -15,16 +15,16 @@ palettes:
   green:
     type: palette
     sass:
-      default: '#FFFFFF'
-      light: '#F0F0F0'
-      medium: '#6B797A'
-      dark: '#384647'
-      active: '#88DD9B'
-      active_light: '#C0FDB6'
-      active_medium: '#5C9174'
-      active_dark: '#547567'
-      dark_grey: '#273132'
-      light_grey: '#6B797A'
+      default: "#FFFFFF"
+      active: "#88DD9B"
+      light_grey: "#6B797A"
+      dark_grey: "#273132"
+      active_medium: "#5C9174"
+      active_dark: "#547567"
+      medium: "#6B797A"
+      light: "#F0F0F0"
+      dark: "#384647"
+      active_light: "#C0FDB6"
       bg_image_cart: /images/leaf-light-grey.svg
 main_menu:
   - type: action
@@ -44,6 +44,9 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
+collections:
+  posts:
+    permalink: /posts/:title/
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -57,6 +60,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
